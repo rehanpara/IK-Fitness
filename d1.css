@@ -1,0 +1,465 @@
+.home2 {
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 127px;
+    white-space: nowrap;
+  }
+  .home-frame {
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .service3 {
+    position: relative;
+    font-weight: 800;
+  }
+  .service-frame {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .trainers3 {
+    position: relative;
+    font-weight: 800;
+  }
+  .trainers-frame {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .memberships2 {
+    position: relative;
+    font-weight: 800;
+  }
+  .memberships-frame {
+    width: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .product2 {
+    position: relative;
+    font-weight: 800;
+  }
+  .product-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-mini) 0 0;
+  }
+  .about2,
+  .register2 {
+    position: relative;
+    font-weight: 800;
+  }
+  .about2 {
+    white-space: nowrap;
+  }
+  .frame-div,
+  .register-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .register-container {
+    flex-direction: row;
+    gap: var(--gap-lg);
+  }
+  .frame-div {
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contact2 {
+    position: relative;
+    font-weight: 800;
+  }
+  .a-b-o-u-t,
+  .frame-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .frame-header {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-lg);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .class-drop-in,
+  .membership {
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .membership {
+    margin: 0 !important;
+    height: 179px;
+    position: absolute;
+    top: -109px;
+    right: 198px;
+  }
+  .class-drop-in {
+    margin: 0;
+    height: 65px;
+    flex: 1;
+    position: relative;
+    color: var(--color-white);
+    max-width: 100%;
+    z-index: 2;
+  }
+  .membership-parent {
+    width: 1500px;
+    margin: 0 !important;
+    position: absolute;
+    top: 218px;
+    left: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .c-l-a-s-s-dropin-child {
+    align-self: stretch;
+    height: 385px;
+    position: relative;
+    background-color: var(--color-red);
+    display: none;
+  }
+  .div {
+    width: 347px;
+    height: 68px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .free-riding,
+  .personal-trainer,
+  .unlimited-equipment,
+  .weight-loss-classes {
+    margin: 0;
+  }
+  .free-riding-unlimited-container {
+    flex: 1;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .c-l-a-s-s-dropin1,
+  .free-riding-unlimited-equipmen-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .free-riding-unlimited-equipmen-wrapper {
+    width: 2027px;
+    flex-direction: row;
+    padding: 0 var(--padding-2xs);
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+  }
+  .c-l-a-s-s-dropin1 {
+    width: 2054px;
+    background-color: var(--color-red);
+    flex-direction: column;
+    padding: 37px 0 0;
+    gap: 72px;
+    z-index: 1;
+  }
+  .class-drop-in1 {
+    margin: 0 !important;
+    height: 65px;
+    width: 1500px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 1;
+  }
+  .frame-inner {
+    align-self: stretch;
+    height: 385px;
+    position: relative;
+    background-color: var(--color-red);
+    display: none;
+  }
+  .div1 {
+    width: 347px;
+    height: 68px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .free-riding1,
+  .personal-trainer1,
+  .unlimited-equipment1,
+  .weight-loss-classes1 {
+    margin: 0;
+  }
+  .free-riding-unlimited-container1 {
+    flex: 1;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .free-riding-unlimited-equipmen-container {
+    width: 2027px;
+    flex-direction: row;
+    padding: 0 var(--padding-2xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+  }
+  .c-l-a-s-s-dropin2,
+  .free-riding-unlimited-equipmen-container,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent {
+    flex: 1;
+    background-color: var(--color-red);
+    flex-direction: column;
+    padding: 40px 0 12px;
+    box-sizing: border-box;
+    gap: var(--gap-38xl);
+    max-width: 100%;
+  }
+  .c-l-a-s-s-dropin2 {
+    width: 2054px;
+    flex-direction: row;
+    position: relative;
+  }
+  .class-drop-in2 {
+    margin: 0 !important;
+    height: 65px;
+    width: 1500px;
+    position: absolute;
+    top: -32px;
+    left: 0;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 1;
+  }
+  .rectangle-div {
+    align-self: stretch;
+    height: 385px;
+    position: relative;
+    background-color: var(--color-red);
+    display: none;
+  }
+  .div2 {
+    width: 347px;
+    height: 68px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .free-riding2,
+  .personal-trainer2,
+  .unlimited-equipment2,
+  .weight-loss-classes2 {
+    margin: 0;
+  }
+  .free-riding-unlimited-container2 {
+    flex: 1;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .free-riding-unlimited-equipmen-frame {
+    width: 2027px;
+    flex-direction: row;
+    padding: 0 var(--padding-2xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+  }
+  .c-l-a-s-s-dropin,
+  .c-l-a-s-s-dropin3,
+  .free-riding-unlimited-equipmen-frame,
+  .rectangle-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-group {
+    flex: 1;
+    background-color: var(--color-red);
+    flex-direction: column;
+    padding: 36px 0 16px;
+    box-sizing: border-box;
+    gap: var(--gap-38xl);
+    max-width: 100%;
+  }
+  .c-l-a-s-s-dropin,
+  .c-l-a-s-s-dropin3 {
+    width: 2054px;
+  }
+  .c-l-a-s-s-dropin3 {
+    flex-direction: row;
+    position: relative;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--color-white);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .c-l-a-s-s-dropin {
+    overflow-x: auto;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 38px;
+    max-width: 100%;
+  }
+  .c-l-a-s-s-dropin-wrapper,
+  .desktop-4 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .c-l-a-s-s-dropin-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 49px;
+    max-width: 100%;
+    color: var(--color-white);
+  }
+  .desktop-4 {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: var(--padding-xl) var(--padding-3xs) 18px;
+    gap: 147px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--color-red);
+  }
+  @media screen and (max-width: 1625px) {
+    .frame-header {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1275px) {
+    .c-l-a-s-s-dropin-wrapper {
+      padding-left: var(--padding-5xl);
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+    .desktop-4 {
+      gap: 73px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .class-drop-in,
+    .class-drop-in1,
+    .class-drop-in2,
+    .div,
+    .div1,
+    .div2,
+    .membership {
+      font-size: var(--font-size-32xl);
+    }
+    .c-l-a-s-s-dropin {
+      gap: 19px;
+    }
+    .desktop-4 {
+      gap: 37px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .class-drop-in,
+    .div,
+    .membership {
+      font-size: var(--font-size-19xl);
+    }
+    .free-riding-unlimited-container {
+      font-size: var(--font-size-base);
+    }
+    .class-drop-in1,
+    .div1 {
+      font-size: var(--font-size-19xl);
+    }
+    .free-riding-unlimited-container1 {
+      font-size: var(--font-size-base);
+    }
+    .rectangle-parent {
+      padding-top: 26px;
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .class-drop-in2,
+    .div2 {
+      font-size: var(--font-size-19xl);
+    }
+    .free-riding-unlimited-container2 {
+      font-size: var(--font-size-base);
+    }
+    .rectangle-group {
+      padding-top: 23px;
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .desktop-4 {
+      gap: var(--gap-lg);
+    }
+  }
+  

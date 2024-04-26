@@ -1,0 +1,287 @@
+.home1 {
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 127px;
+    white-space: nowrap;
+  }
+  .home-container {
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .service2 {
+    position: relative;
+    font-weight: 800;
+  }
+  .service-container {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .trainers1 {
+    position: relative;
+    font-weight: 800;
+  }
+  .trainers-container {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .memberships1 {
+    position: relative;
+    font-weight: 800;
+  }
+  .memberships-container {
+    width: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .product1 {
+    position: relative;
+    font-weight: 800;
+  }
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-mini) 0 0;
+  }
+  .about1,
+  .register1 {
+    position: relative;
+    font-weight: 800;
+  }
+  .about1 {
+    white-space: nowrap;
+  }
+  .frame-wrapper,
+  .register-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .register-group {
+    flex-direction: row;
+    gap: var(--gap-lg);
+  }
+  .frame-wrapper {
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contact1 {
+    position: relative;
+    font-weight: 800;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .desktop-3-inner,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    justify-content: flex-start;
+    gap: var(--gap-lg);
+  }
+  .desktop-3-inner {
+    align-self: stretch;
+    justify-content: flex-end;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .trainers2 {
+    margin: 0;
+    width: 550px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .frame-child,
+  .modi-vyas {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .modi-vyas {
+    margin: 0;
+    height: 107px;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .frame-child {
+    height: 826px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .modi-vyas-parent {
+    width: 716px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    max-width: 100%;
+  }
+  .frame-item,
+  .linavaa-eve {
+    align-self: stretch;
+    position: relative;
+  }
+  .linavaa-eve {
+    margin: 0;
+    font-size: inherit;
+    line-height: 107px;
+    font-weight: 800;
+    font-family: inherit;
+  }
+  .frame-item {
+    height: 826px;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .linavaa-eve-parent {
+    width: 716px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    max-width: 100%;
+  }
+  .frame-container,
+  .frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    width: 1708px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .frame-container {
+    align-self: stretch;
+    justify-content: flex-end;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .desktop-3,
+  .trainers-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .trainers-parent {
+    width: 1803px;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: 32px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 80px;
+    color: var(--color-red);
+    font-family: var(--font-inknut-antiqua);
+  }
+  .desktop-3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-black);
+    overflow: hidden;
+    padding: var(--padding-xl) var(--padding-3xs) 98px 137px;
+    gap: var(--gap-103xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1625px) {
+    .frame-parent {
+      display: none;
+    }
+    .frame-group {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1275px) {
+    .desktop-3 {
+      gap: var(--gap-42xl);
+      padding-left: 68px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .trainers2 {
+      font-size: 40px;
+    }
+    .linavaa-eve,
+    .modi-vyas {
+      font-size: var(--font-size-19xl);
+    }
+    .linavaa-eve {
+      line-height: 86px;
+    }
+    .trainers-parent {
+      gap: 16px;
+    }
+    .desktop-3 {
+      gap: var(--gap-11xl);
+      padding-left: 34px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .trainers2 {
+      font-size: 24px;
+    }
+    .linavaa-eve,
+    .modi-vyas {
+      font-size: var(--font-size-10xl);
+    }
+    .linavaa-eve {
+      line-height: 64px;
+    }
+    .desktop-3 {
+      gap: var(--gap-mini);
+    }
+  }
+  
